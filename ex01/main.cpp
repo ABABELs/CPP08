@@ -6,7 +6,7 @@
 /*   By: aabel <aabel@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/31 11:28:23 by aabel             #+#    #+#             */
-/*   Updated: 2024/01/31 14:16:03 by aabel            ###   ########.fr       */
+/*   Updated: 2024/02/15 11:07:47 by aabel            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,10 @@
 
 int main()
 {
-    Span sp = Span(100);
+    Span sp = Span(10000);
     try
     {
-        sp.addMoreNumber(1, 100);
+        sp.addMoreNumber(1, 10000);
         // sp.addNumber(1);
         // sp.addNumber(2);
         // sp.addNumber(3);
